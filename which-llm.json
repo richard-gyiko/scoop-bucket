@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI for querying AI model benchmarks from Artificial Analysis",
   "homepage": "https://github.com/richard-gyiko/which-llm-cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/richard-gyiko/which-llm-cli/releases/download/v0.2.0/which-llm-x86_64-pc-windows-msvc.zip",
-      "hash": "2893223b06bae420e1adaa65152546145266e18deb72849d5ee663ce0434be03"
+      "url": "https://github.com/richard-gyiko/which-llm-cli/releases/download/v0.3.0/which-llm-x86_64-pc-windows-msvc.zip",
+      "hash": "ec9c4d7b5b3b6a811a187f31a399fc4c4416008cc2d9046b63553517b956cefe"
     }
   },
   "bin": "which-llm.exe",
