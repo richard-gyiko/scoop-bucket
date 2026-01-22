@@ -37,8 +37,8 @@ jobs:
           # Update hash
           jq --arg h "$HASH" '.architecture."64bit".hash = $h' "$MANIFEST" > tmp.json && mv tmp.json "$MANIFEST"
           
-          # Update URL (replace version in URL)
-          jq --arg v "$VERSION" '.architecture."64bit".url = (.architecture."64bit".url | gsub("/v[0-9.]+/"; "/v\($v)/"))' "$MANIFEST" > tmp.json && mv tmp.json "$MANIFEST"
+          # Update URL (replace version in URL - handles both cli/vX.X.X and vX.X.X formats)
+          jq --arg v "$VERSION" '.architecture."64bit".url = (.architecture."64bit".url | gsub("cli/v[0-9.]+"; "cli/v\($v)") | gsub("/v[0-9.]+/"; "/v\($v)/"))' "$MANIFEST" > tmp.json && mv tmp.json "$MANIFEST"
 
       - name: Commit and push
         run: |

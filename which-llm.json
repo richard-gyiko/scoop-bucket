@@ -1,22 +1,23 @@
 {
   "version": "0.5.0",
-  "description": "CLI for querying AI model benchmarks from Artificial Analysis",
-  "homepage": "https://github.com/richard-gyiko/which-llm-cli",
+  "description": "CLI + agent skill for selecting the right LLM based on benchmarks, capabilities, and cost",
+  "homepage": "https://github.com/richard-gyiko/which-llm",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/richard-gyiko/which-llm-cli/releases/download/v0.5.0/which-llm-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/richard-gyiko/which-llm/releases/download/cli/v0.5.0/which-llm-x86_64-pc-windows-msvc.zip",
       "hash": "c81c7b1761e9bc6caf28ebf96fd3b65b2f0bd493bd538d66a18386bdc55f1d8f"
     }
   },
   "bin": "which-llm.exe",
   "checkver": {
-    "github": "https://github.com/richard-gyiko/which-llm-cli"
+    "github": "https://github.com/richard-gyiko/which-llm",
+    "regex": "cli/v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/richard-gyiko/which-llm-cli/releases/download/v$version/which-llm-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/richard-gyiko/which-llm/releases/download/cli/v$version/which-llm-x86_64-pc-windows-msvc.zip"
       }
     }
   }
