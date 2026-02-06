@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "CLI + agent skill for selecting the right LLM based on benchmarks, capabilities, and cost",
   "homepage": "https://github.com/richard-gyiko/which-llm",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/richard-gyiko/which-llm/releases/download/cli/v0.5.0/which-llm-x86_64-pc-windows-msvc.zip",
-      "hash": "c81c7b1761e9bc6caf28ebf96fd3b65b2f0bd493bd538d66a18386bdc55f1d8f"
+      "url": "https://github.com/richard-gyiko/which-llm/releases/download/cli/v0.5.1/which-llm-x86_64-pc-windows-msvc.zip",
+      "hash": "b23c907e1e6b001877cc917e056412689620fc46f10592daa40d4e164cd537cc"
     }
   },
   "bin": "which-llm.exe",
