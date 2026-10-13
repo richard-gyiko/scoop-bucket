@@ -1,12 +1,12 @@
 {
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Agent-first Redmine CLI with markdown-optimized output",
   "homepage": "https://github.com/richard-gyiko/redmine-cli",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.2.8/rdm-x86_64-pc-windows-msvc.zip",
-      "hash": "f5708a13f0aedd565254a74f47dc85eda27a6285cb45c24b6be3b4f188839b6c"
+      "url": "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.2.9/rdm-x86_64-pc-windows-msvc.zip",
+      "hash": "696a6aa0027cd2a1b19004062a575e38eb6bf95bd8a072e70e7fd3468190c96f"
     }
   },
   "bin": "rdm.exe",
