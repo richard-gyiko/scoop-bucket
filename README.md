@@ -10,7 +10,6 @@ scoop bucket add richard-gyiko https://github.com/richard-gyiko/scoop-bucket
 
 # Install tools
 scoop install aa    # Artificial Analysis CLI
-scoop install rdm   # Redmine CLI
 ```
 
 ## Available packages
@@ -18,4 +17,5 @@ scoop install rdm   # Redmine CLI
 | Package | Description |
 |---------|-------------|
 | [aa](https://github.com/richard-gyiko/artificial-analysis-cli) | CLI for querying AI model benchmarks from Artificial Analysis |
-| [rdm](https://github.com/richard-gyiko/redmine-cli) | Agent-first Redmine CLI with markdown-optimized output |
+
+> `rdm` moved to [whizystems/scoop-bucket](https://github.com/whizystems/scoop-bucket).
